@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let nums=[1,2,3,4,5,6,7,8];
 
 let newArr=nums.filter(val=>
@@ -6,4 +7,14 @@ let newArr=nums.filter(val=>
 }
 );
 
+=======
+let nums=[1,2,3,4,5,6,7,8];
+
+let newArr=nums.filter(val=>
+{
+    return val%2==0;
+}
+);
+
+>>>>>>> efd0f1b07b6cfe9583b957452e5444d557310e5f
 console.log(newArr);
